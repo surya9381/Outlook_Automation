@@ -2,42 +2,44 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-31T10:02:26 IST" name="Default suite" finished-at="2024-07-31T10:03:15 IST" duration-ms="48904">
+  <suite started-at="2024-07-31T10:41:04 IST" name="Suite" finished-at="2024-07-31T10:41:48 IST" duration-ms="44053">
     <groups>
     </groups>
-    <test started-at="2024-07-31T10:02:26 IST" name="Default test" finished-at="2024-07-31T10:03:15 IST" duration-ms="48904">
+    <test started-at="2024-07-31T10:41:04 IST" name="Test" finished-at="2024-07-31T10:41:48 IST" duration-ms="44053">
       <class name="org.testscripts.Surya">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.testscripts.Surya@3a93b025]" started-at="2024-07-31T10:02:26 IST" name="launchBrowser" finished-at="2024-07-31T10:02:29 IST" duration-ms="2789" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:org.testscripts.Surya@478190fc]" started-at="2024-07-31T10:41:04 IST" name="launchBrowser" finished-at="2024-07-31T10:41:07 IST" duration-ms="2906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:org.testscripts.Surya@3a93b025]" started-at="2024-07-31T10:02:29 IST" name="loginToApp" finished-at="2024-07-31T10:02:30 IST" duration-ms="673" status="PASS">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:org.testscripts.Surya@478190fc]" started-at="2024-07-31T10:41:07 IST" name="loginToApp" finished-at="2024-07-31T10:41:09 IST" duration-ms="1966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method signature="test()[pri:0, instance:org.testscripts.Surya@3a93b025]" started-at="2024-07-31T10:02:30 IST" name="test" finished-at="2024-07-31T10:03:15 IST" duration-ms="45373" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="test()[pri:0, instance:org.testscripts.Surya@478190fc]" started-at="2024-07-31T10:41:09 IST" name="test" finished-at="2024-07-31T10:41:48 IST" duration-ms="39089" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
             <message>
-              <![CDATA[element click intercepted: Element <div class="___77lcry0 f10pi13n" role="none" aria-label="Teams" style="">...</div> is not clickable at point (34, 188). Other element would receive the click: <button type="button" id="86fcd49b-61a2-4701-b771-54728cd291fb" data-tid="86fcd49b-61a2-4701-b771-54728cd291fb" aria-label="Chat" aria-pressed="true" aria-describedby="readerBox-86fcd49b-61a2-4701-b771-54728cd291fb" role="button" data-clicklog="custom" class="fui-Button r1alrhcs ___1rudan6 f1sl3k7w f136y8j8 f1brlhvm f10xn8zz ftgf7lp f1m4tk7k fre7gi1 f1358rze fqdk4by f1rvrf73 fzki0ko f3swjwz f1hu3pq6 f19f4twv figsok6 f1q9pm1r f1xqy1su f1sdsnyy ftqa4ok f2hkw1w f8hki3x f1d2448m f1bjia2o ffh67wi f226i61 f13kzufm flujwa2 fsx75g8 f15bsgw9 f14e48fq f18yb2kv fd6o370 fh1cnn4 fy7oxxb fpukqih f184ne2d frrh606 f1v5zibi ful5kiu fo2hd23 f1jqcqds ftffrms f2e7qr6 fsr1zz6 f1dvezut fd0oaoj fjvm52t f1cwg4i8 f1mywlt f1njr18z fiwyskv f1o5h46z f1q3txrk f1o7qkhw fode6gy fd2qbv0 fiu8gst fsuw20m f1krrbdw f1deotkl f10ostut f1ozlkrg fkc42ay f1rirnrt">...</button>
+              <![CDATA[stale element reference: stale element not found in the current frame
   (Session info: chrome=127.0.6533.73)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [77168729a35b3c1abc887edc21062334, clickElement {id=f.8580C0F61BD7D3FAF0B8C6015419D0DD.d.58843CD5AE499772E39793CA905F7BBC.e.24}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63345/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (77168729a35b3c1abc887edc21062334)] -> xpath: //div[@aria-label='Teams']]
-Session ID: 77168729a35b3c1abc887edc21062334]]>
+Command: [a77979067b9edec902e24efa2b203eb8, clickElement {id=f.6E079F9E3B497E089874B0A405C3EF7C.d.CDB9ABC526EACDF61062A178EA08AFE6.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64285/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a77979067b9edec902e24efa2b203eb8)] -> xpath: //div[@aria-label='Teams']]
+Session ID: a77979067b9edec902e24efa2b203eb8]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="___77lcry0 f10pi13n" role="none" aria-label="Teams" style="">...</div> is not clickable at point (34, 188). Other element would receive the click: <button type="button" id="86fcd49b-61a2-4701-b771-54728cd291fb" data-tid="86fcd49b-61a2-4701-b771-54728cd291fb" aria-label="Chat" aria-pressed="true" aria-describedby="readerBox-86fcd49b-61a2-4701-b771-54728cd291fb" role="button" data-clicklog="custom" class="fui-Button r1alrhcs ___1rudan6 f1sl3k7w f136y8j8 f1brlhvm f10xn8zz ftgf7lp f1m4tk7k fre7gi1 f1358rze fqdk4by f1rvrf73 fzki0ko f3swjwz f1hu3pq6 f19f4twv figsok6 f1q9pm1r f1xqy1su f1sdsnyy ftqa4ok f2hkw1w f8hki3x f1d2448m f1bjia2o ffh67wi f226i61 f13kzufm flujwa2 fsx75g8 f15bsgw9 f14e48fq f18yb2kv fd6o370 fh1cnn4 fy7oxxb fpukqih f184ne2d frrh606 f1v5zibi ful5kiu fo2hd23 f1jqcqds ftffrms f2e7qr6 fsr1zz6 f1dvezut fd0oaoj fjvm52t f1cwg4i8 f1mywlt f1njr18z fiwyskv f1o5h46z f1q3txrk f1o7qkhw fode6gy fd2qbv0 fiu8gst fsuw20m f1krrbdw f1deotkl f10ostut f1ozlkrg fkc42ay f1rirnrt">...</button>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
   (Session info: chrome=127.0.6533.73)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [77168729a35b3c1abc887edc21062334, clickElement {id=f.8580C0F61BD7D3FAF0B8C6015419D0DD.d.58843CD5AE499772E39793CA905F7BBC.e.24}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63345/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (77168729a35b3c1abc887edc21062334)] -> xpath: //div[@aria-label='Teams']]
-Session ID: 77168729a35b3c1abc887edc21062334
+Command: [a77979067b9edec902e24efa2b203eb8, clickElement {id=f.6E079F9E3B497E089874B0A405C3EF7C.d.CDB9ABC526EACDF61062A178EA08AFE6.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\user\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64285}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64285/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a77979067b9edec902e24efa2b203eb8)] -> xpath: //div[@aria-label='Teams']]
+Session ID: a77979067b9edec902e24efa2b203eb8
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -49,7 +51,7 @@ at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpRespo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -90,11 +92,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- org.testscripts.Surya -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
